@@ -1,0 +1,18 @@
+baseURL = 'https://m1-s.com/'
+languageCode = 'en-us'
+title = 'm1-s'
+theme = 'm10c'
+
+[params]
+author = 'Michael Schneider'
+description = 'Homepage of Michael Schneider'
+avatar = 'm1-s.png'
+
+[[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/m1-s"
+
+[[module.mounts]]
+source = 'static'
+target = 'assets'
