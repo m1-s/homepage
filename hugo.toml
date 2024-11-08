@@ -1,18 +1,62 @@
 baseURL = 'https://m1-s.com/'
-languageCode = 'en-us'
-title = 'm1-s'
-theme = 'm10c'
+languageCode = 'en'
+theme = 'vncnt-hugo'
+
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+title = "Michael Schneider - IT Consulting"
+_merge = "none"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
 
 [params]
-author = 'Michael Schneider'
-description = 'Homepage of Michael Schneider'
-avatar = 'm1-s.png'
+  author = "Michael Schneider"
+  # email does still work but is deprecated.
+  # use [params.contact.email] instead.
+  #email = "john.doe@example.com"
+  description = "Michael Schneider - IT Consulting"
+  bio = "IT Consulting for small and medium sized companies."
+  avatar = "/avatar.png"
+  favicon = ":baseUrl/favicon.ico"
+  error404 = "There is no such page."
 
-[[params.social]]
-  icon = "github"
-  name = "Github"
-  url = "https://github.com/m1-s"
+  [params.contact]
+    # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
+    github = "https://github.com/m1-s"
+    # instagram = "https://instagram.com/jdoe"
+    # twitter = "https://twitter.com/jdoe"
 
-[[module.mounts]]
-source = 'static'
-target = 'assets'
+    # You may use (inline) tables for more versatility
+    # This allows sorting and even more icons.
+    # Just make sure not to mix key-value pairs, inline tables and tables,
+    # although keeping keeping this order is ok.
+    # See https://toml.io/en/v1.0.0 for details
+    # 0 = { name = "ello", icon = "ello", style = "fab", link = "" } # empty links are possible
+    # [params.contact.1] # key names are sorted lexicographically
+    #   name = "hiking club" # may be omitted. defaults to key name
+    #   icon = "hiking" # may be omitted. defaults to key name
+    #   style = "fas" # may be omitted. default = "fas"
+    #   link = "https://local-hiking.club"
+    [params.contact.email]
+      name = "email" # may be omitted. defaults to key name
+      icon = "envelope" # may be omitted. defaults to key name
+      style = "fas" # may be omitted. default = "fas"
+      link = "mailto:hi@m1-s.com"
+
+# [params]
+# author = 'Michael Schneider'
+# description = 'Homepage of Michael Schneider'
+# avatar = 'm1-s.png'
+#
+# [[params.social]]
+#   icon = "github"
+#   name = "Github"
+#   url = "https://github.com/m1-s"
+
+# [[module.mounts]]
+# source = 'img'
+# target = 'static'
