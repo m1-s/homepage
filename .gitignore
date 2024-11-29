@@ -1,4 +1,4 @@
 resources
-# themes
-public
 .direnv
+public
+result

@@ -1,17 +1,17 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
-    vncnt-hugo.url = "github:fncnt/vncnt-hugo";
-    vncnt-hugo.flake = false;
+    hugo-profile.url = "github:gurusabarish/hugo-profile";
+    hugo-profile.flake = false;
   };
 
-  outputs = { self, nixpkgs, vncnt-hugo }:
+  outputs = { self, nixpkgs, hugo-profile }:
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
       theme = pkgs.runCommand "move-theme" { } ''
-        mkdir -p $out/themes/vncnt-hugo
-        cp -r ${vncnt-hugo}/. $out/themes/vncnt-hugo
+        mkdir -p $out/themes/hugo-profile
+        cp -r ${hugo-profile} $out/themes/hugo-profile
       '';
     in
     {
@@ -22,7 +22,7 @@
           src = ./.;
           postUnpackPhase = "cp -r ${theme}/. $out";
           buildInputs = with pkgs; [ hugo ];
-          buildPhase = "hugo -d $out --noBuildLock && ls $out";
+          buildPhase = "hugo -d $out --noBuildLock";
         };
 
         deploy = pkgs.writeShellScriptBin "deploy" ''
@@ -46,13 +46,13 @@
           git commit -m "deploy website - $(date --rfc-3339=seconds)" || :
           git push origin gh-pages
         '';
+      };
 
-        devShells.${system}.default = pkgs.mkShell {
-          packages = with pkgs; [ hugo ];
-          shellHook = ''
-            rsync -r ${vncnt-hugo}/. ./themes/vncnt-hugo/
-          '';
-        };
+      devShells.${system}.default = pkgs.mkShell {
+        packages = with pkgs; [ hugo ];
+        shellHook = ''
+          sudo rsync --mkpath -r ${hugo-profile}/. ./themes/hugo-profile/
+        '';
       };
     };
 }

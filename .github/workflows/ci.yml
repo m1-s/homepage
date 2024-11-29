@@ -3,8 +3,10 @@ on: # yamllint disable rule:truthy
   pull_request:
   push:
     branches: [main]
+
 jobs:
   flake-check:
+    runs-on: ubuntu-latest
     # cancel previous runs when pushing new changes
     concurrency:
       group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
@@ -14,18 +16,4 @@ jobs:
       - uses: cachix/install-nix-action@v25
         with:
           extra_nix_config: "system-features = kvm nixos-test"
-      - env
-        run: |
-          nix flake check -L
-  deploy-website:
-    if: github.ref == 'refs/heads/main'
-    # only allow one deployment job at the same time
-    concurrency: main
-    # this environment is specified in github project settings
-    environment: main
-    needs: flake-check
-    steps:
-      - uses: actions/checkout@v4
-      - uses: cachix/install-nix-action@v25
-        run: |
-          nix run .#deploy -L
+      - run: nix flake check -L

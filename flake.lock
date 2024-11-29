@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "hugo-profile": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1723358703,
+        "narHash": "sha256-mFishNrcwRq83XuPt1M2ir1mSdJ5TN9udsrseOu4JrE=",
+        "owner": "gurusabarish",
+        "repo": "hugo-profile",
+        "rev": "df24b5134e901a1cc8d5bf22353145e24f160614",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gurusabarish",
+        "repo": "hugo-profile",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1730741070,
@@ -18,24 +34,8 @@
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
-        "vncnt-hugo": "vncnt-hugo"
-      }
-    },
-    "vncnt-hugo": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1713813201,
-        "narHash": "sha256-YvOWUJImhkDA3iKOZCDIrq3DaJYOL1KwfRLnqi1Dqbs=",
-        "owner": "fncnt",
-        "repo": "vncnt-hugo",
-        "rev": "fad7815bc6eb12b8dee7677b82b64c41cccc903d",
-        "type": "github"
-      },
-      "original": {
-        "owner": "fncnt",
-        "repo": "vncnt-hugo",
-        "type": "github"
+        "hugo-profile": "hugo-profile",
+        "nixpkgs": "nixpkgs"
       }
     }
   },

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on IT Consulting - Michael Schneider</title>
+    <link>https://m1-s.com/posts/</link>
+    <description>Recent content in Posts on IT Consulting - Michael Schneider</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <atom:link href="https://m1-s.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://m1-s.com/posts/impressum/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>https://m1-s.com/posts/impressum/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
