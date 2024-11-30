@@ -1,65 +1,41 @@
-# Imprint
+# Impressum
 
-## INFORMATION ACCORDING TO § 5 German Telemedia Act (TMG)
-
+Michael Schneider\
 IT Consulting - Michael Schneider\
 Moorwinkel 16\
 38302 Wolfenbüttel\
-Germany
+Deutschland
 
-E-Mail: hi@m1-s.com
+## Kontakt
+Telefon: +1 8085562399\
+E-Mail: hi@m1-s.com\
 
-## VAT-ID
-
-Sales tax identification number according to § 27 a sales tax law:\
+## Umsatzsteuer-ID
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\
 DE365143792
 
-## EDITORIAL RESPONSIBILITY
-Michael Schneider
+## Berufsbezeichnung und berufsrechtliche Regelungen
+Berufsbezeichnung:\
+Beratender Ingenieur\
+Verliehen in:\
+Deutschland
 
-## ONLINE DISPUTE RESOLUTION
-The European Commission provides a platform for online dispute resolution (OS).
-Our e-mail address can be found above in the imprint.
+## EU-Streitschlichtung
+Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
+bereit:\
+https://ec.europa.eu/consumers/odr/.\
+Unsere E-Mail-Adresse finden Sie oben im Impressum.\
 
-Platform-Link: https://ec.europa.eu/consumers/odr/
+## Verbraucherstreitbeilegung/Universalschlichtungsstelle
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+Verbraucherschlichtungsstelle teilzunehmen.
 
-## CONSUMER DISPUTE RESOLUTION/UNIVERSAL ARBITRATION BOARD
-We are not willing or obliged to participate in dispute settlement procedures
-before a consumer arbitration board.
+## Zentrale Kontaktstelle nach dem Digital Services Act - DSA (Verordnung (EU) 2022/265)
+Unsere zentrale Kontaktstelle für Nutzer und Behörden nach Art. 11, 12 DSA
+erreichen Sie wie folgt:\
+E-Mail: hi@m1-s.com\
+Telefon: +1 8085562399\
+Die für den Kontakt zur Verfügung stehenden Sprachen sind: Deutsch, Englisch.
 
-## DISCLAIMER
-
-### Liability for content
-As a service provider, we are responsible for our own content on these pages in
-accordance with general legislation in accordance with Section 7 (1) of the
-German Telemedia Act (TMG). According to §§ 8 to 10 TMG, however, we as a
-service provider are not obliged to monitor transmitted or stored third-party
-information or to investigate circumstances that indicate illegal activity.
-Obligations to remove or block the use of information according to general laws
-remain unaffected. However, liability in this regard is only possible from the
-point in time at which knowledge of a specific infringement of the law is known.
-As soon as we become aware of any violations of the law, we will remove this
-content immediately.
-
-### Liability for links
-Our offer contains links to external third-party websites, the content of which
-we have no influence on. Therefore we cannot assume any liability for this
-external content. The respective provider or operator of the pages is always
-responsible for the content of the linked pages. The linked pages were checked
-for possible legal violations at the time of linking. Illegal content was not
-recognizable at the time of linking. However, a permanent control of the content
-of the linked pages is not reasonable without concrete evidence of an
-infringement. As soon as we become aware of legal violations, we will remove
-such links immediately.
-
-### COPYRIGHT
-The content and works on these pages created by the site operators are subject
-to German copyright law. The duplication, editing, distribution and any kind of
-exploitation outside the limits of copyright require the written consent of the
-respective author or creator. Downloads and copies of this site are only
-permitted for private, non-commercial use. Insofar as the content on this site
-was not created by the operator, the copyrights of third parties are observed.
-In particular contents of third parties are marked as such. Should you
-nevertheless become aware of a copyright infringement, we ask that you inform us
-accordingly. As soon as we become aware of legal violations, we will remove such
-content immediately.
+Quelle:\
+e-recht24.de

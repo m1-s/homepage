@@ -172,7 +172,7 @@ params:
 
       I am fluent in English and German.
 
-      Let’s work together and allow me to solve your hardest problems,
+      Let’s work together! Allow me to solve your hardest problems,
       so you can focus on what matters most: Growing your business.
 
     skills:
@@ -180,7 +180,7 @@ params:
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Haskell"
-        - "Nix(OS)"
+        - "Nix/NixOS"
         - "Rust"
         - Bash
         - Python
